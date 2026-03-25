@@ -13,7 +13,7 @@ int main() {
     while (cin >> word) {
         All_words.push_back(word);
     }
-
+    
     if (All_words.empty()) {
         cout << "입력된 단어가 없습니다." << endl;
         return 0;
